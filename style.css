@@ -19,3 +19,18 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+}
+.cat1{
+    background-image: linear-gradient(to right, #ff9b06 0%, #ffb300 100%);
+}
+.cat2{
+    background-image: linear-gradient(to right, #FF589B 0%, #ff136f 100%);
+}
+.cat3{
+    background-image: linear-gradient(to right, #0022ff 0%, #01049e 100%);
+}
+}
