@@ -1,3 +1,6 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
 .container{
     margin-bottom: 60px;
 }
@@ -19,6 +22,11 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+.buy-now-button:hover{
+    background-image:none;
+    color: #FF589B;
+    border-image: 5px solid linear-gradient(to bottom, #FF589B 0%, #ff136f 100%);
+}
 .cat1, .cat2, .cat3{
     padding: 10px 30px;
     border-radius: 10px;
@@ -33,4 +41,21 @@
 .cat3{
     background-image: linear-gradient(to right, #0022ff 0%, #01049e 100%);
 }
+.card-desing{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+}
+
+.card-footer{
+    border-top: none;
+}
+#Contact{
+    height: 350px;
+}
+#Contact h6{
+    color: gray;
+}
+footer{
+    text-align: center;
 }
